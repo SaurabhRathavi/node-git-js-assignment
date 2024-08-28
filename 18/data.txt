@@ -1,0 +1,8 @@
+First, we need to run the git reflog command, which displays all the recent actions with their hash value, including those that affected the deleted branch
+We need to copy the commit hash of the deleted branch and create a new branch using the following command:
+git checkout -b <new-branch-name> <commit-hash>
+
+Supposing I want the name of branch new-branch and the hash value of commit is 1bea043, then my command looks like
+git checkout -b new-branch 1bea043
+
+This will create a new branch with all the previous commits of the deleted branch

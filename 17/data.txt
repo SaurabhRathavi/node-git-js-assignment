@@ -1,0 +1,16 @@
+
+1)First add your .env to your gitignore file.
+
+2)To remove the .env file from your GitHub repository, run the following command
+     git rm -r --cached .env
+     But if someone looks at your Git history, he/she can still find the file and expose the secrets!
+
+3)To remove every trace of the .env file ever being exposed, run the following.
+         
+     git filter-branch --index-filter "git rm -rf --cached --ignore-unmatch .env" HEAD
+
+     This command will rewrite the history to remove .env from all commits.
+
+4)Push the code using below command
+     git push --force
+ 

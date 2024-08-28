@@ -1,0 +1,8 @@
+Showcase different merging strategies in git including visual demonstration of those strategies.
+
+1) Fast Forward Merge: Fast-forward merge occurs when the target branch has not diverged from the source branch. In this case, Git simply moves the target branch pointer to the latest commit in the source branch. This strategy is simple and keeps the commit history linear.
+     command:git merge feature-branch
+
+2) Squash and Merge: Squash and merge squashes all the commits from a feature branch into a single commit before merging into the target branch. This strategy simplifies the commit history, making it easier to follow.
+
+3) Rebase and Merge: Rebase and merge rewrites the commit history of the feature branch, placing it on top of the main branch before merging. This results in a linear commit history without merge commits.

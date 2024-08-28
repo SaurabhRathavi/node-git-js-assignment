@@ -1,0 +1,8 @@
+[2024-08-27T17:00:57.192Z] 2024-08-27T17:00:57.182Z POST /api/auth/register - PostmanRuntime/7.41.2
+[2024-08-27T17:01:19.875Z] 2024-08-27T17:01:19.875Z POST /api/auth/login - PostmanRuntime/7.41.2
+[2024-08-27T17:01:41.570Z] 2024-08-27T17:01:41.570Z POST /api/products - PostmanRuntime/7.41.2
+[2024-08-27T17:01:53.321Z] 2024-08-27T17:01:53.321Z POST /api/products/ - PostmanRuntime/7.41.2
+[2024-08-27T17:02:36.258Z] 2024-08-27T17:02:36.258Z GET /api/products/ - PostmanRuntime/7.41.2
+[2024-08-27T17:05:09.644Z] INFO: GET /api/products/ - PostmanRuntime/7.41.2
+[2024-08-27T17:05:27.982Z] INFO: GET /api/auth/login - PostmanRuntime/7.41.2
+[2024-08-27T17:05:34.932Z] INFO: POST /api/auth/login - PostmanRuntime/7.41.2
